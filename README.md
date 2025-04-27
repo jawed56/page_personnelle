@@ -78,7 +78,7 @@ Licence
 - **Lien `https://jawed56.github.io/`** :
   - Ajouté dans la section "Démo" avec la ligne : `Consultez le site live ici : [https://jawed56.github.io/](https://jawed56.github.io/)`.
   - Présenté comme le lien principal pour voir le portfolio en action.
-- **Lien du dépôt `https://github.com/jawed56/portfolio`** :
+- **Lien du dépôt `https://github.com/jawed56/`**
   - Utilisé dans les sections "Installation", "Démo" et "Contribution" pour pointer vers le code source.
   - Si votre dépôt a un nom différent (par exemple, `jawed56.github.io`), remplacez `portfolio` par le nom correct.
 - **Autres liens** :
@@ -86,7 +86,7 @@ Licence
 
 ### Vérifications
 - **Lien live** : Assurez-vous que `https://jawed56.github.io/` affiche correctement votre portfolio. Si ce n'est pas le cas, vérifiez la configuration de GitHub Pages dans votre dépôt.
-- **Nom du dépôt** : J'ai utilisé `https://github.com/jawed56/portfolio` comme exemple. Si votre dépôt est `https://github.com/jawed56/jawed56.github.io` (typique pour GitHub Pages), mettez à jour les liens dans le README :
+- **Nom du dépôt** : J'ai utilisé `https://github.com/jawed56/` comme exemple. Si votre dépôt est `https://github.com/jawed56/jawed56.github.io` (typique pour GitHub Pages), mettez à jour les liens dans le README :
   - Remplacez `https://github.com/jawed56/portfolio` par `https://github.com/jawed56/jawed56.github.io`.
 - **Affichage sur GitHub** : Une fois poussé sur GitHub, vérifiez que le README s'affiche correctement avec les liens cliquables.
 
