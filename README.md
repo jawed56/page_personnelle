@@ -33,7 +33,7 @@ Aucun logiciel ou dépendance spécifique n'est requis. Un navigateur web modern
 
 1. Clonez ce dépôt :
    ```bash
-   git clone https://github.com/jawed56/portfolio.git
+   git clone https://github.com/jawed56.git
 
 Ouvrez le fichier index.html dans un navigateur :
 Double-cliquez sur index.html, ou
@@ -57,7 +57,7 @@ Formulaire : Connectez le formulaire à un backend (par exemple, JavaScript ou F
 
 Démo
 Consultez le site live ici : https://jawed56.github.io/
-Consultez le code source sur GitHub : https://github.com/jawed56/portfolio
+Consultez le code source sur GitHub : https://github.com/jawed56/
 Captures d'écran
 (Facultatif : Ajoutez des captures d'écran ici pour illustrer le projet.)
 Auteur
@@ -87,7 +87,7 @@ Licence
 ### Vérifications
 - **Lien live** : Assurez-vous que `https://jawed56.github.io/` affiche correctement votre portfolio. Si ce n'est pas le cas, vérifiez la configuration de GitHub Pages dans votre dépôt.
 - **Nom du dépôt** : J'ai utilisé `https://github.com/jawed56/` comme exemple. Si votre dépôt est `https://github.com/jawed56/jawed56.github.io` (typique pour GitHub Pages), mettez à jour les liens dans le README :
-  - Remplacez `https://github.com/jawed56/portfolio` par `https://github.com/jawed56/jawed56.github.io`.
+  - Remplacez `https://github.com/jawed56/` par `https://github.com/jawed56/jawed56.github.io`.
 - **Affichage sur GitHub** : Une fois poussé sur GitHub, vérifiez que le README s'affiche correctement avec les liens cliquables.
 
 ### Prochaines étapes
