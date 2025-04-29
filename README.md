@@ -1,4 +1,4 @@
-# Portfolio Personnel - Rabah Loudjani
+# Portfolio Rabah Loudjani
 
 Ce projet est une page web personnelle conçue comme un portfolio pour présenter mon parcours, ma passion pour les nouvelles technologies et mes coordonnées. Avec un design moderne, coloré et réactif, il offre une expérience utilisateur fluide et visuellement attrayante.
 
