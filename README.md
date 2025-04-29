@@ -35,8 +35,11 @@ Aucun logiciel ou dépendance spécifique n'est requis. Un navigateur web modern
    ```bash
    git clone https://github.com/jawed56.git
 
-Ouvrez le fichier index.html dans un navigateur :
-Double-cliquez sur index.html, ou
+Ouvrez le fichier index.html dans un navigateur : 
+Double-cliquez sur index.html, https://jawed56.github.io/
+Consultez le code source sur GitHub : https://github.com/jawed56/
+
+
 
 Lancez un serveur local (par exemple, avec l'extension Live Server de VS Code).
 
