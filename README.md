@@ -36,7 +36,7 @@ Aucun logiciel ou dépendance spécifique n'est requis. Un navigateur web modern
    git clone https://github.com/jawed56.git
 
 Ouvrez le fichier index.html dans un navigateur : 
-Double-cliquez sur index.html, https://jawed56.github.io/
+Double-cliquez sur index.html, https://jawed56.github.io/portfolio/index.html
 Consultez le code source sur GitHub : https://github.com/jawed56/
 
 
