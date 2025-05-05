@@ -19,17 +19,6 @@
             display: flex;
             flex-direction: column;
         }
-        /* Logo dans l'en-tête */
-        .logo-container {
-            text-align: center;
-            padding: 1em;
-        }
-        .logo-container img {
-            width: 100px; /* Ajuste la taille selon ton logo */
-            height: auto;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-        }
         nav {
             background: rgba(0, 0, 0, 0.8);
             padding: 1em;
@@ -55,11 +44,11 @@
             color: #ff1493;
         }
         .container {
-            max-width: 900px;
+            max-width:1200px;
             margin: 2em auto;
             padding: 2em;
             background: rgba(255, 255, 255, 0.2);
-            border-radius: 15px;
+            border-radius: 12px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
             backdrop-filter: blur(5px);
         }
@@ -166,18 +155,61 @@
             color: #f5c518;
             text-decoration: none;
         }
+        .audio-container {
+            text-align: center;
+            padding: 3em;
+            position: sticky;
+            top: 70px;
+            z-index: 99;
+            background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-blend-mode: overlay;
+        }
+        .radio-message {
+            color: #ffffff;
+            font-size: 0.5em;
+            font-weight: bold;
+            margin-bottom: 1em;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+        }
+        audio {
+            display: none;
+            margin: 0.5em auto;
+            width: 300px;
+            border-radius: 5px;
+            background: rgba(255, 255, 125, 0.2);
+            padding: 0.5em;
+        }
+        #audio-overlay {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 1em;
+            border-radius: 5px;
+            margin: 0.5em auto;
+            max-width: 300px;
+        }
+        #audio-overlay p {
+            color: #ffffff;
+            font-size: 0.9em;
+            margin-bottom: 0.5em;
+        }
+        #play-audio {
+            padding: 0.5em 1em;
+            background: #ff1493;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        #play-audio:hover {
+            background: #ff4500;
+        }
     </style>
 </head>
 <body>
-<audio autoplay loop>
-    <source src="https://universal-soundbank.com/sounds/11463.mp3" type="audio/mpeg">
-    Votre navigateur ne supporte pas l'élément audio.
-</audio>
-   <!-- Logo dans l'en-tête -->
-    <div class="logo-container">
-        <img src="https://i.imgur.com/5v4Hsed.jpeg" alt="Mon Logo">
-    </div>
-
     <nav>
         <ul>
             <li><a href="#home">Accueil</a></li>
@@ -186,17 +218,25 @@
         </ul>
     </nav>
 
+    <div class="audio-container">
+         <div id="audio-overlay">
+            <p>Cliquez pour écouter :</p>
+            <button id="play-audio">Activer le son</button>
+        </div>
+        <audio id="radio-player" controls>
+            <!-- Si le flux ne fonctionne pas sur GitHub Pages à cause de CORS, remplacez cette URL par un flux qui autorise les requêtes cross-origin -->
+            <source src="https://stream.europe1.fr/europe1.mp3" type="audio/mpeg">
+            Votre navigateur ne prend pas en charge l'élément audio. Essayez un autre navigateur ou vérifiez votre connexion.
+        </audio>
+    </div>
     <div class="container">
         <section id="home">
-            <h1>Page en construction<h1> 
-                    <h1>Bienvenue</h1>
+            <h1>Page en construction</h1>
+            <h1>Bienvenue</h1>
             <p>Passionné par les nouvelles technologies</p>
-            <a href="#about" class="cta-button">En savoir plus</a>
         </section>
-
         <section id="about">
-            <h2>À propos de moi</h2>
-            <!-- Photo de profil -->
+        <!-- Si possible, hébergez cette image dans votre dépôt GitHub (par exemple, assets/images/profile-pic.jpg) -->
             <img src="https://i.imgur.com/PfQVRUW.jpeg" alt="Photo de Rabah Loudjani" class="profile-pic">
             <p>
                 Salut, je suis Rabah Loudjani, un passionné des nouvelles technologies qui transforme les idées en innovations ! 🚀 J’adore coder, créer et repousser les limites du possible. Découvre mon univers, mes projets, et embarque avec moi dans cette aventure numérique !
@@ -209,23 +249,56 @@
                 <p>Email : <a href="mailto:loudjani.r@outlook.fr" class="email">loudjani.r@outlook.fr</a></p>
                 <p>WhatsApp : <a href="https://wa.me/+213771466869" class="whatsapp">+213771466869</a></p>
                 <p>GitHub : <a href="https://github.com/jawed56" class="github">GitHub</a></p>
-                <p>music : <a href="https://universal-soundbank.com/sounds/11463.mp3" class="pour votre confort"></a></p>
             </div>
             <form>
-                <input type="text" placeholder="Votre nom" required>
-                <input type="email" placeholder="Votre email" required>
-                <textarea placeholder="Votre message" rows="5" required></textarea>
+                <input type="text" placeholder="Rabah Loudjani" required>
+                <input type="email" placeholder="loudjani.r@outlook.fr" required>
+                <textarea placeholder="Merci pour la visite" rows="5" required></textarea>
                 <button type="submit">Envoyer</button>
             </form>
         </section>
-    </div>
-    <div id="alarmStatus"></div>
-            <audio id="alarmSound" src="http://europe1.lmn.fm/europe1.mp3" preload="auto"></audio>
-        </div>
     </div>
 
     <footer>
         <p>© 2025 Rabah Loudjani. Contactez-moi sur mon Email : <a href="mailto:loudjani.r@outlook.fr" class="email">loudjani.r@outlook.fr</a></p>
     </footer>
+
+    <script>
+        const audio = document.getElementById('radio-player');
+        const overlay = document.getElementById('audio-overlay');
+        const playButton = document.getElementById('play-audio');
+
+        audio.addEventListener('loadeddata', () => {
+            console.log("Flux audio chargé avec succès !");
+        });
+
+        audio.addEventListener('error', (e) => {
+            console.error("Erreur lors du chargement du flux audio : ", e);
+            alert("Impossible de charger le flux audio. Vérifiez votre connexion ou l'URL du flux.");
+        });
+
+        audio.addEventListener('play', () => {
+            console.log("Lecture démarrée ! Mute activé : ", audio.muted);
+        });
+
+        audio.addEventListener('volumechange', () => {
+            console.log("État du volume changé. Mute activé : ", audio.muted);
+            if (!audio.muted) {
+                console.log("Son activé ! Volume : ", audio.volume);
+            }
+        });
+
+        playButton.addEventListener('click', () => {
+            console.log("Bouton 'Activer la radio' cliqué !");
+            audio.style.display = 'block';
+            overlay.style.display = 'none';
+            audio.play().then(() => {
+                console.log("Lecture lancée avec succès !");
+            }).catch(error => {
+                console.error("Erreur lors de la lecture : ", error);
+                alert("Une erreur s'est produite lors de la lecture. Vérifiez la console pour plus de détails.");
+            });
+        });
+    </script>
 </body>
 </html>
