@@ -1,6 +1,6 @@
 # Portfolio Rabah Loudjani
 
-Ce projet est une page web personnelle conçue comme un portfolio pour présenter mon parcours, ma passion pour les nouvelles technologies et mes coordonnées. Avec un design moderne, coloré et réactif, il offre une expérience utilisateur fluide et visuellement attrayante.
+Ce projet est une page web personnelle conçue comme un portfolio pour présenter mon parcours, ma passion pour les nouvelles technologies et mes coordonnées. Avec un design moderne, coloré et réactif, il offre une expérience utilisateur fluide et visuellement attrayante et en bonus vous avez droit à la musique. 
 
 ![Capture d'écran](screenshot.png)
 
