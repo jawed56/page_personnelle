@@ -64,14 +64,10 @@ Démo
 Consultez le site live ici : https://jawed56.github.io/
 Consultez le code source sur GitHub : https://github.com/jawed56/
 Captures d'écran
-(Facultatif : Ajoutez des captures d'écran ici pour illustrer le projet.)
 Auteur
 Rabah Loudjani
-
 Email : loudjani.r@gmail.com (mailto:loudjani.r@gmail.com)
-
 WhatsApp : +213771466869
-
 GitHub : jawed56
 
 Music pour votre confort : https://universal-soundbank.com/sounds/11463.mp3
@@ -80,24 +76,3 @@ Contribution
 Ce projet est personnel, mais les suggestions sont les bienvenues ! Pour contribuer, ouvrez une issue ou une pull request sur le dépôt GitHub.
 Licence
 © 2025 Rabah Loudjani. Ce projet est destiné à un usage personnel. Vous pouvez le modifier pour vos propres besoins, mais veuillez respecter les droits d'auteur pour toute utilisation commerciale.
-
-### Détails des intégrations
-- **Lien `https://jawed56.github.io/`** :
-  - Ajouté dans la section "Démo" avec la ligne : `Consultez le site live ici : [https://jawed56.github.io/](https://jawed56.github.io/)`.
-  - Présenté comme le lien principal pour voir le portfolio en action.
-- **Lien du dépôt `https://github.com/jawed56/`**
-  - Utilisé dans les sections "Installation", "Démo" et "Contribution" pour pointer vers le code source.
-  - Si votre dépôt a un nom différent (par exemple, `jawed56.github.io`), remplacez `portfolio` par le nom correct.
-- **Autres liens** :
-  - Les liens Email, WhatsApp et GitHub dans la section "Auteur" sont repris de votre `index.html` pour cohérence.
-
-### Vérifications
-- **Lien live** : Assurez-vous que `https://jawed56.github.io/` affiche correctement votre portfolio. Si ce n'est pas le cas, vérifiez la configuration de GitHub Pages dans votre dépôt.
-- **Nom du dépôt** : J'ai utilisé `https://github.com/jawed56/` comme exemple. Si votre dépôt est `https://github.com/jawed56/jawed56.github.io` (typique pour GitHub Pages), mettez à jour les liens dans le README :
-  - Remplacez `https://github.com/jawed56/` par `https://github.com/jawed56/jawed56.github.io`.
-- **Affichage sur GitHub** : Une fois poussé sur GitHub, vérifiez que le README s'affiche correctement avec les liens cliquables.
-
-### Prochaines étapes
-- Si le nom du dépôt GitHub est différent, partagez-le pour que je mette à jour les liens.
-- Si vous voulez ajouter des captures d'écran ou d'autres sections (par exemple, une section "Projets" ou "Badges"), je peux les intégrer.
-- Si vous avez besoin d'aide pour configurer GitHub Pages ou pousser le projet, je peux fournir des instructions.
